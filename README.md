@@ -9,6 +9,21 @@ This package enables autonomous Visual SLAM exploration on a real HoneyBro S500 
 - Sensors: RGBD Camera (e.g. Intel RealSense D435i or OAK-D)
 - Power: UBEC (5V for Raspberry Pi 5)
 
+  ## 🛠️ Mechanical Design & Avionics Integration
+
+To house the companion computer, avionics, and sensors without interfering with the S500 frame's structural balance, a custom mounting plate was designed in **SolidWorks** and manufactured via **FDM 3D Printing**.
+
+<p align="center">
+  <img src="docs/images/Cadru_Componente_Sup.png" width="45%" alt="Top View"/>
+  <img src="docs/images/Cadru_Componente_Inf.png" width="45%" alt="Bottom View"/>
+</p>
+
+### Key Design Features:
+- **Component Packaging:** Dedicated layout accommodating the Pixhawk 6C Mini (centered along the IMU axis), Raspberry Pi 5 companion computer, and forward-looking sensors.
+- **Fastener Clearance:** Integrated bottom relief counterbores to prevent interference with structural frame screws.
+- **Vibration & Weight Optimization:** 3D printed in PETG (4 wall perimeters, 35% Gyroid infill) to damp motor harmonics and provide rigid mechanical fixation using standard zip-tie/standoff slots.
+- **CAD Models:** Complete assembly and manufacturing files are available under [`/cad`](cad/).
+
 ## Software Prerequisites
 - ROS 2 Jazzy
 - PX4 Autopilot
