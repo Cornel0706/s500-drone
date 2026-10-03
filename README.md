@@ -16,6 +16,9 @@ To house the companion computer, avionics, and sensors without interfering with 
 <p align="center">
   <img src="docs/images/Cadru_Componente_Sup.png" width="45%" alt="Top View"/>
   <img src="docs/images/Cadru_Componente_Inf.png" width="45%" alt="Bottom View"/>
+  <img src="docs/images/Drona_1.png" width="45%" alt="Drone 1 "/>
+  <img src="docs/images/Drona_2.png" width="45%" alt="Drone 2"/>
+  
 </p>
 
 ### Key Design Features:
